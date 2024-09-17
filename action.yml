@@ -1,5 +1,5 @@
 name: Kavenegar Action
-description: Repository stats SMS notifier
+description: Kavenegar SMS notifier action
 author: Sadra Yahyapour
 
 branding:
@@ -26,10 +26,9 @@ inputs:
     required: true
 
   receptor:
-    description: the reciever phone numbere
+    description: the receiver phone number
     required: true
 
   message:
-    description: message context
-    default: hello world
+    description: message content
     required: true

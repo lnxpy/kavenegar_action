@@ -18,7 +18,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Sending SMS
-        uses: lnxpy/kavenegar_action@v1
+        uses: lnxpy/kavenegar_action@v2
         with:
           api_key: ${{ secrets.API_KEY }}
           receptor: ${{ secrets.RECEPTOR }}
